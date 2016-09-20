@@ -8,7 +8,7 @@
 
 ### 使用
 1. 下载解压源码至本地服务器目录`./mall`中
-2. 目录`./data/`为数据库中的json文件，在终端中使用`mongoimport -d tp_mall -c tableName jsonFile`命令导入数据
+2. 目录`./data/`为数据库中的json文件，在终端中使用`mongorestore -d tp_mall --drop [path of restore files dir]`命令导入数据
 3. 使用浏览器访问 `[object path]/mall/`
 4. 后台进入地址：`[object path]/mall/Admin`,初始账号密码为:`admin` ，`admin123`
 
